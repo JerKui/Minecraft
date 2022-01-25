@@ -47,7 +47,7 @@ De hoofdopdracht luidt:
 - Open `dashboardv3.py` in PyCharm en selecteer Python Interpreter `Python 3.9`.
 - Nu kan je met `Shift + F10` de app opstarten dit kan enkele seconden duren totdat de interface verschijnt.
 ### Het gebruik maken van de interface doormiddel van het startmenu
-Het leuke van de grafische interface is dat je het programma met een `.exe` kan opstarten. Om dit te doen, open het windows start menu, type `SteamGUI` en druk op `[Enter]`
+Het leuke van de grafische interface is dat je het programma met een `.exe` kan opstarten. Om dit te doen, open `Dashboard/Project/, druk op `dashboard.exe` en druk op `[Enter]`
 
 
 
@@ -74,28 +74,3 @@ Bekijk [AVG](https://google.nl)
 ### Designers
 - Olav Sajtos (1812355)
 - Jerry Kuijper (1792255)
-
-
-
-[//]: # (Download en haal de nieuwste versie op [release] &#40;&#41;)
-
-[//]: # (Open Windows start menu,  typ `SteamInterface` en druk op `enter`)
-
-[//]: # ()
-[//]: # ()
-[//]: # (## Contributors)
-
-[//]: # (Dit project is mogelijk gemaakt dankzij de volgende mensen die eraan hebben geholpen.)
-
-[//]: # (       )
-[//]: # (Mats Braster &#40;1719515&#41;,)
-
-[//]: # (Olav Sajtos &#40;1812355&#41;)
-
-[//]: # (Jerry Kuijper &#40;1792255&#41;, )
-
-[//]: # (Joseph Tawiah &#40;1820132&#41;,)
-
-[//]: # (Waïl Idrissi &#40;1812925&#41;,)
-
-[//]: # (Alae Aynaou &#40;1814819&#41;)
