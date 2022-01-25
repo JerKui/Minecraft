@@ -1,6 +1,8 @@
-<h1 align="center">
+<p align="center">
+<img width="32" align="center" src="/dashboard/steam.png">
+<h3 align="center">
   Steam Project
-</h1>
+</h3>
 <p align="center">
   Een interface met grafische weergaven van gaming gedrag.
 </p>
@@ -15,11 +17,14 @@
     <img src="https://img.shields.io/badge/Steam-Installeren-blueviolet" alt="Store link" />
   </a>
 
+
 ## Introductie
 Steam wil haar klanten beter bedienen door meer grafische weergaves te maken van gaming gedrag naar verschillende klantsegmenten. 
 Hiervoor heeft ze een consultancybedrijf ingehuurd. 
 De hoofdopdracht luidt: 
 "Maak een grafische weergave die inzicht geeft in het gaming gedrag van jouw vrienden op het platform Steam, ondersteund door een netwerk waarbij gebruik gemaakt wordt van een RaspberryPi."
+
+<img width="1080" align="center" src="/dashboard/images/example.png">
 
 ## Hoe moet je hem installeren? (als eindgebruiker)
 
@@ -28,14 +33,23 @@ De hoofdopdracht luidt:
 - Een schermresolutie van 16:9 vereist.
 - Een internetverbinding is vereist.
 
-### Python
-- Python build 3.9 of later vereist.
-
-### Steam
-- Download en installeer [Steam](https://store.steampowered.com/)
-
 ### Handleiding
 - Download en extract de laatste `release`
+- Rechtermuisknop op het `.zip` bestand en druk op hier uitpakken.
+
+## Hoe gebruik je de grafische interface?
+
+### Hoe run je de grafische interface source code
+- Wees er zeker van dat je computer minstens draait op Windows 10 1903+
+- Wees er zeker van dat [Python 3.9](https://www.python.org/downloads/release/python-390/) en [PyCharm 2021.3](https://www.jetbrains.com/pycharm/whatsnew/) is geinstalleerd.
+- Wees er zeker van dat [Git](https://git-scm.com/) geinstalleerd is en in PyCharm  ([Git in Pycharm tutorial](https://clt.champlain.edu/kb/configuring-git-with-pycharm/)) werkend is.
+- In Pycharm, installeer de nodige geimporteerde library's. Zie [file] om te zien welke dit zijn. 
+- Open `dashboardv3.py` in PyCharm en selecteer Python Interpreter `Python 3.9`.
+- Nu kan je met `Shift + F10` de app opstarten dit kan enkele seconden duren totdat de interface verschijnt.
+### Het gebruik maken van de interface doormiddel van het startmenu
+Het leuke van de grafische interface is dat je het programma met een `.exe` kan opstarten. Om dit te doen, open het windows start menu, type `SteamGUI` en druk op `[Enter]`
+
+
 
 ## App Toestemming
 SteamInterface werkt volledig online, alle data die opgehaald wordt in de app wordt van het internet / steam afgehaald doormiddel van een API of steam zelf. Daarom, de app heeft wel toestemming nodig van sommige andere apps om correct  te kunnen werken.
